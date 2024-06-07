@@ -8,9 +8,7 @@
 - [Introduction](#introduction)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 In this project we try to extract data using python from SQL server database
@@ -18,32 +16,12 @@ In this project we try to extract data using python from SQL server database
 
 ## Installation
 Microsoft SQL server
+pyodbc library of python
 
 
 ## Usage
-Explain how to use the project, including any command-line options, configurations, or examples.
+You should have A IP address of your remote sql server 
+and you just have to put this IP address in the db_sript
 
-## Configuration
-Provide information about any configuration options or settings that users may need to customize or adjust.
-
-## Contributing
-Outline guidelines for contributing to the project, including how to report issues, submit pull requests, or get involved with development.
-
-## License
-Indicate the license under which the project is distributed. Include any copyright or licensing information.
-
-## Additional Sections (Optional)
-Depending on the complexity and scope of your project, you may want to include additional sections such as:
-- FAQs
-- Troubleshooting
-- Examples
-- Acknowledgments
-- References
-- Changelog
-- Contact Information
-
-## Example README
-
-For inspiration, you can check out other README files on GitHub or browse popular projects to see how they structure their documentation.
 
 
