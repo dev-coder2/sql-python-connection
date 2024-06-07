@@ -27,3 +27,9 @@ VALUES
     ('Michael', 'Brown', 'michael.brown@example.com', 'Data Analyst', 'IT', '2022-08-10'),
     ('Sarah', 'Davis', 'sarah.davis@example.com', 'Marketing Specialist', 'Marketing', '2018-09-25');
 GO
+
+--this is for setting credentials in new query
+CREATE LOGIN YourUsername WITH PASSWORD = 'YourPassword123';
+USE CompanyDB;
+CREATE USER YourUsername FOR LOGIN YourUsername;
+ALTER ROLE db_owner ADD MEMBER YourUsername;
