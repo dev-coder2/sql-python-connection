@@ -21,7 +21,8 @@ pyodbc library of python
 
 ## Usage
 You should have A IP address of your remote sql server 
-and you just have to put this IP address in the db_sript
+and you just have to put this IP address in the db_sript along with your login credentials.
+
 
 
 
